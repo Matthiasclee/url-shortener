@@ -1,0 +1,27 @@
+<!--© Matthias Lee 2021 All rights reserved.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="http://cdn.xn--zga.net/MCSS1.0.css">
+	<link rel="icon" type="image/png" href="http://cdn.xn--zga.net/favicon.ico">
+	<title>ū.net URL Shortener</title>
+
+</head>
+<body style="text-align: center;">
+	<a href="/api">Our API</a>
+<a href="http://ū.net/shortcut">iOS Shortcut</a>
+	<p class="text-medium">API</p>
+		<p class="text-medium-small">About our API</p>
+		<br>
+		<p>Just like any API, our API allows programs to communicate with the service. This means programs can automatically create short URLs and see where a URL goes.</p>
+		<br>
+		<p class="text-medium-small">How to use it</p>
+		<p>To use it to make a URL, send a post request to ū.net/api with parameter "url" as long URL and "csturl" as custom URL. (Still send csturl just as a blank string if you don't want a custom URL.)</p> <p>If your output starts with "ERR:", something went wrong.</p>
+		<br>
+		<p>To use the API to see where a URL goes to, make a get request to ū.net/apipreview/&#60;SHORT URL&#62;.</p> <p>You will receive either "R:&#60;URL&#62;" for a random URL or "C:&#60;URL&#62;" for a custom URL.</p>
+
+		<p style="position: fixed; bottom: 0%; left: 7px;">Version 2.0.15</p>
+		<p style="position: fixed; bottom: 0%; right: 7px;">Contact us: <a href="mailto:contact@ū.net">contact@ū.net</a></p>
+		<p style="position: fixed; bottom: 0%; left: 0%; right: 0%">© Matthias Lee 2021 All rights reserved</p>
+</body>
+</html>
